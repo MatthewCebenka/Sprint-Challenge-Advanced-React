@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.cards {
+  margin: 100px 450px;
+}
+
+.card {
+  margin-top: 40px;
+  box-shadow: 4px 5px 25px 4px rgba(255, 255, 255, 0.283);
+  transition: all 0.1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 10px 25px 8px rgba(254, 254, 254, 0.345);
+}
+
+
+body {
+  background-color: #282c34;
+  color: white;
+}
